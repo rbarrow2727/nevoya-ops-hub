@@ -175,21 +175,7 @@ Every customer inquiry in **Front** must receive a response within **30 minutes*
 
 These five metrics work together:
 
-```
-Revenue ($1,000/truck)
-    ↑
-    │ Enabled by
-    │
-┌───┴────────────────────────────────┐
-│                                    │
-│  OTD (95%+)  ←→  Utilization (85%+)│
-│       ↑              ↑             │
-│       │              │             │
-│  Response Time   Data Accuracy     │
-│    (< 30 min)       (100%)         │
-│                                    │
-└────────────────────────────────────┘
-```
+![Metric Synergies](/images/diagrams/metric-synergies.png)
 
 **Fast response** enables **on-time delivery**.
 **Accurate data** enables **utilization optimization**.

@@ -27,33 +27,7 @@ Your role is won or lost in 15-minute increments. When multiple issues arise sim
 
 ### Priority Decision Tree
 
-```
-[New Issue Arrives]
-        │
-        ▼
-Is anyone in physical danger?
-        │
-   YES ─┴─ NO
-    │       │
-    ▼       ▼
-  P0    Is an active load at risk?
-IMMEDIATE      │
-            YES ─┴─ NO
-             │       │
-             ▼       ▼
-           P1    Is a customer waiting for response?
-         5 min         │
-                   YES ─┴─ NO
-                    │       │
-                    ▼       ▼
-                  P2    Is a driver checkpoint due?
-                15 min         │
-                           YES ─┴─ NO
-                            │       │
-                            ▼       ▼
-                          P3      P4
-                        30 min   60 min
-```
+![Priority Decision Tree](/images/diagrams/priority-logic.png)
 
 **P0 Action**: Drop everything. Call Safety + Ops Lead.
 **P1 Action**: Call driver immediately. Log in Apollo.
@@ -122,34 +96,7 @@ IMMEDIATE      │
 
 ### Escalation Decision Tree
 
-```
-[Issue Identified]
-        │
-        ▼
-Is this a SAFETY issue?
-        │
-   YES ─┴─ NO
-    │       │
-    ▼       ▼
-LEVEL 3  Can I resolve this with existing SOPs?
-Call Safety + GM        │
-IMMEDIATELY         YES ─┴─ NO
-                     │       │
-                     ▼       ▼
-                 LEVEL 1   Does this require judgment
-                Handle it,  beyond my authority?
-              document in        │
-                Apollo      YES ─┴─ NO
-                             │       │
-                             ▼       ▼
-                         LEVEL 2  Is a customer
-                        Escalate  relationship at risk?
-                        to Ops Lead     │
-                        within 30 min  YES ─┴─ NO
-                                        │       │
-                                        ▼       ▼
-                                    LEVEL 2  LEVEL 1
-```
+![Escalation Protocol](/images/diagrams/escalation-protocol.png)
 
 **Level 1**: Document resolution in Apollo
 **Level 2**: Document escalation in Apollo + notify via Slack
