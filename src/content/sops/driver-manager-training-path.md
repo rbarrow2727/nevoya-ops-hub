@@ -11,7 +11,7 @@ Welcome to the Nevoya Driver Manager (DM) Training. This guide is designed to tr
 
 ---
 
-## Phase 1: The Non-Negotiable Daily Pulse
+## 1. Phase 1: The Non-Negotiable Daily Pulse
 
 Before addressing any loads, you must complete the **Morning Pulse Checklist**. This ensures 100% readiness across your fleet.
 
@@ -49,7 +49,7 @@ For EACH assigned driver, verify:
 
 ---
 
-## Phase 2: The "3 Before Me" Rule
+## 2. Phase 2: The "3 Before Me" Rule
 
 As a coach, your goal is to empower drivers to be self-sufficient. When a driver calls with a routine question, guide them through this protocol:
 
@@ -78,7 +78,7 @@ This trains drivers to problem-solve while assuring them you're always their bac
 
 ---
 
-## Phase 3: The Yellow Flag Protocol
+## 3. Phase 3: The Yellow Flag Protocol
 
 A **Yellow Flag** is any deviation of **15+ minutes** from the plan. Yellow Flags demand immediate attention — they are your early warning system before a situation becomes a Red Flag (customer impact).
 
@@ -126,7 +126,7 @@ Execute these five steps **IN ORDER** for every Yellow Flag:
 
 ---
 
-## Phase 4: Priority Stack Training
+## 4. Phase 4: Priority Stack Training
 
 When multiple issues arise simultaneously, use the **P0-P4 Priority Stack** to determine what gets attention first.
 
@@ -152,7 +152,7 @@ When multiple issues arise simultaneously, use the **P0-P4 Priority Stack** to d
 
 ---
 
-## Phase 5: The Driver Manager Voice
+## 5. Phase 5: The Driver Manager Voice
 
 ### Communication Tone
 
@@ -177,7 +177,7 @@ When multiple issues arise simultaneously, use the **P0-P4 Priority Stack** to d
 
 ---
 
-## Training Completion Checklist
+## 6. Training Completion Checklist
 
 Before you're ready for live operations, confirm you can:
 

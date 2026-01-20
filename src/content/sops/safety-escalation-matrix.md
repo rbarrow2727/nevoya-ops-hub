@@ -11,7 +11,7 @@ Nevoya's mission depends on precise execution and rapid response to deviations. 
 
 ---
 
-## 3. Priority Hierarchy (P0-P4)
+## 1. Priority Hierarchy (P0-P4)
 
 ### The Dispatcher's Priority Stack
 
@@ -63,7 +63,7 @@ IMMEDIATE      │
 
 ---
 
-## 5. Escalation Matrix
+## 2. Escalation Matrix
 
 ### Escalation Philosophy
 
@@ -185,7 +185,7 @@ _________________________________
 
 ---
 
-## Emergency Response Protocol (Level 3)
+## 3. Emergency Response Protocol (Level 3)
 
 In the event of an Accident (ANY severity):
 

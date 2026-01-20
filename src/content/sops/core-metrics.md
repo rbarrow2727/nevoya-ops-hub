@@ -11,7 +11,7 @@ Nevoya's operational excellence is measured by five core metrics. These aren't j
 
 ---
 
-## The Driver Manager's Scorecard
+## 1. The Driver Manager's Scorecard
 
 Every Driver Manager is accountable for these metrics across their assigned fleet (8-12 drivers):
 
@@ -25,7 +25,7 @@ Every Driver Manager is accountable for these metrics across their assigned flee
 
 ---
 
-## 1. Revenue Target: $1,000/Truck/Day
+## 2. Revenue Target: $1,000/Truck/Day
 
 ### What It Means
 
@@ -48,7 +48,7 @@ Every truck in your fleet should generate **$1,000 in revenue per day**. This is
 
 ---
 
-## 2. On-Time Delivery: 95%+
+## 3. On-Time Delivery: 95%+
 
 ### What It Means
 
@@ -77,7 +77,7 @@ Every truck in your fleet should generate **$1,000 in revenue per day**. This is
 
 ---
 
-## 3. Driver Utilization: 85%+
+## 4. Driver Utilization: 85%+
 
 ### What It Means
 
@@ -101,7 +101,7 @@ Drivers should be **productively engaged 85% of their available hours**. This in
 
 ---
 
-## 4. Customer Response Time: < 30 Minutes
+## 5. Customer Response Time: < 30 Minutes
 
 ### What It Means
 
@@ -127,7 +127,7 @@ Every customer inquiry in **Front** must receive a response within **30 minutes*
 
 ---
 
-## 5. Data Accuracy: 100%
+## 6. Data Accuracy: 100%
 
 ### What It Means
 
@@ -160,7 +160,7 @@ Every customer inquiry in **Front** must receive a response within **30 minutes*
 
 ---
 
-## Metric Review Cadence
+## 7. Metric Review Cadence
 
 | Frequency | Review | Owner |
 | :--- | :--- | :--- |
@@ -171,7 +171,7 @@ Every customer inquiry in **Front** must receive a response within **30 minutes*
 
 ---
 
-## The Bottom Line
+## 8. The Bottom Line
 
 These five metrics work together:
 

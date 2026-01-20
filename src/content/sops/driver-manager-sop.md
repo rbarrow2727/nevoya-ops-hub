@@ -94,7 +94,7 @@ This trains drivers to problem-solve while assuring them you're always their bac
 
 ---
 
-## 4. The Yellow Flag System
+## 3. The Yellow Flag System
 
 ### Definition
 
@@ -138,7 +138,7 @@ Execute these five steps IN ORDER for every Yellow Flag:
 
 ---
 
-## 6. Communication Standards
+## 4. Communication Standards
 
 ### The Driver Manager Voice
 
@@ -192,7 +192,7 @@ Apply these tags to EVERY customer communication:
 
 ---
 
-## 7. Regional Operating Guidelines
+## 5. Regional Operating Guidelines
 
 ### California Operations
 
@@ -243,7 +243,7 @@ Apply these tags to EVERY customer communication:
 
 ---
 
-## Quick Reference
+## 6. Quick Reference
 
 ### Daily Shift Checklist
 
