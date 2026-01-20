@@ -27,30 +27,42 @@ export default function PresentationClient({ html }: { html: string }) {
         <div className="presentation-mode">
             <button
                 onClick={() => setActive(false)}
-                style={{ position: 'absolute', top: '2rem', right: '2rem', background: 'none', border: 'none', color: 'white', cursor: 'pointer' }}
+                className="btn-glass"
+                style={{ position: 'fixed', top: '2rem', right: '2rem', zIndex: 1100, padding: '0.5rem' }}
             >
-                <X size={32} />
+                <X size={24} />
             </button>
 
             <div className="slide">
                 <div className="prose" dangerouslySetInnerHTML={{ __html: slides[currentSlide] }} />
             </div>
 
-            <div style={{ position: 'absolute', bottom: '2rem', left: '50%', transform: 'translateX(-50%)', display: 'flex', gap: '2rem', alignItems: 'center' }}>
+            <div style={{ position: 'fixed', bottom: '2rem', left: '50%', transform: 'translateX(-50%)', display: 'flex', gap: '2rem', alignItems: 'center', zIndex: 1100, background: 'rgba(10, 12, 16, 0.8)', padding: '1rem 2rem', borderRadius: '100px', backdropFilter: 'blur(8px)', border: '1px solid var(--border)' }}>
                 <button
                     className="btn btn-glass"
                     disabled={currentSlide === 0}
-                    onClick={() => setCurrentSlide(prev => prev - 1)}
+                    onClick={() => {
+                        setCurrentSlide(prev => prev - 1);
+                        window.scrollTo(0, 0);
+                        document.querySelector('.presentation-mode')?.scrollTo(0, 0);
+                    }}
                 >
-                    <ChevronLeft /> Previous
+                    <ChevronLeft size={20} /> Previous
                 </button>
-                <span style={{ color: 'var(--text-secondary)' }}>{currentSlide + 1} / {slides.length}</span>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Slide</span>
+                    <span style={{ fontWeight: 'bold', color: 'var(--primary)' }}>{currentSlide + 1} / {slides.length}</span>
+                </div>
                 <button
                     className="btn btn-glass"
                     disabled={currentSlide === slides.length - 1}
-                    onClick={() => setCurrentSlide(prev => prev + 1)}
+                    onClick={() => {
+                        setCurrentSlide(prev => prev + 1);
+                        window.scrollTo(0, 0);
+                        document.querySelector('.presentation-mode')?.scrollTo(0, 0);
+                    }}
                 >
-                    Next <ChevronRight />
+                    Next <ChevronRight size={20} />
                 </button>
             </div>
         </div>
