@@ -1,4 +1,4 @@
-import { ChevronLeft, Share2, Printer } from 'lucide-react';
+import { ChevronLeft } from 'lucide-react';
 import { getSOPBySlug, getSOPs } from '@/lib/markdown';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -37,13 +37,9 @@ export default async function SOPPage({ params }: { params: Promise<{ slug: stri
             </aside>
 
             <main className="main-content">
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '3rem' }}>
+                <div style={{ marginBottom: '3rem' }}>
                     <div style={{ color: 'var(--text-secondary)', fontSize: '0.875rem' }}>
                         Operations &gt; SOPs &gt; <span style={{ color: 'var(--primary)' }}>{sop.title}</span>
-                    </div>
-                    <div style={{ display: 'flex', gap: '0.5rem' }}>
-                        <button className="btn btn-glass" title="Share"><Share2 size={18} /></button>
-                        <button className="btn btn-glass" title="Print"><Printer size={18} /></button>
                     </div>
                 </div>
 
