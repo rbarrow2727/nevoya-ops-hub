@@ -1,5 +1,4 @@
-import { ChevronLeft, Maximize2, Share2, Printer } from 'lucide-react';
-import PresentationClient from '@/components/PresentationClient';
+import { ChevronLeft, Share2, Printer } from 'lucide-react';
 import { getSOPBySlug, getSOPs } from '@/lib/markdown';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -43,7 +42,6 @@ export default async function SOPPage({ params }: { params: Promise<{ slug: stri
                         Operations &gt; SOPs &gt; <span style={{ color: 'var(--primary)' }}>{sop.title}</span>
                     </div>
                     <div style={{ display: 'flex', gap: '0.5rem' }}>
-                        <button className="btn btn-glass" title="Presentation Mode"><Maximize2 size={18} /></button>
                         <button className="btn btn-glass" title="Share"><Share2 size={18} /></button>
                         <button className="btn btn-glass" title="Print"><Printer size={18} /></button>
                     </div>
@@ -52,10 +50,6 @@ export default async function SOPPage({ params }: { params: Promise<{ slug: stri
                 <article className="prose">
                     <div dangerouslySetInnerHTML={{ __html: sop.contentHtml }} />
                 </article>
-
-                <div className="floating-nav">
-                    <PresentationClient html={sop.contentHtml} />
-                </div>
             </main>
         </div>
     );
