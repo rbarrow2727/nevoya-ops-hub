@@ -39,7 +39,7 @@ export default async function Home() {
             <p style={{ color: 'var(--text-secondary)', marginBottom: '1.5rem' }}>
               Target: $1,000 revenue per truck/day. OTD: 95%+.
             </p>
-            <button className="btn btn-glass">View Dashboard</button>
+            <Link href="/sops/core-metrics" className="btn btn-glass">View Dashboard</Link>
           </div>
 
           <div style={{ background: 'var(--card-bg)', border: '1px solid var(--border)', padding: '2rem', borderRadius: '16px' }}>
